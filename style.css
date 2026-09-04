@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norse.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norsebold.otf") format("opentype");
+    font-weight: bold;
+}
+body {
+    font-family: "Norse", sans-serif
+}
+
+#odin-img {
+    background-color: black;
+    opacity: 0.2;
+}
+
+#odin-txt {
+    color: darkgreen;
+    font-size: 50px;
+}
