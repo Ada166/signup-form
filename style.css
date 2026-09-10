@@ -66,3 +66,19 @@ body {
     height: 150px;
     
 }
+
+.description {
+    background: white;
+    border: 1px, solid whitesmoke;
+    margin: 0 0 30px 0;
+    padding: 40px;
+}
+
+.form-box {
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    width: 80%;
+    padding: 40px;
+    align-items: center;
+}
