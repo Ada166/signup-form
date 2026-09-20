@@ -10,6 +10,11 @@
     font-weight: bold;
 }
 
+input,
+button {
+    font: inherit;
+}
+
 body {
     margin: 0;
     font-family: "Norse", sans-serif
