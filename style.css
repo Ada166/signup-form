@@ -17,12 +17,13 @@ button {
 
 body {
     margin: 0;
-    font-family: "Norse", sans-serif
+    font-family: "Norse", sans-serif;
 }
 
 .panel-container {
+    min-height: 100vh;
     display: flex;
-    height: 100vh;
+    box-sizing: border-box;
 }
 
 .banner-container {
@@ -35,7 +36,6 @@ body {
 .form-container {
     flex: 2;
     background: white;
-    align-items: center;
 }
 
 .odin-txt {
@@ -76,10 +76,10 @@ body {
 .description {
     background: whitesmoke;
     border: 1px, solid whitesmoke;
-    margin: 50ch 0 0 0;
-    padding: 80px;
+    margin: 30px 0 0 0;
+    padding: 20px;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 
@@ -90,7 +90,7 @@ body {
     border: 1px solid whitesmoke;
     border-radius: 3px;
     width: 100%;
-    padding: 80px;
+    padding: 40px;
 }
 
 .form-box .form-row {
@@ -109,18 +109,28 @@ body {
     
 }
 
-.form-row input[type='passworld']:user-invalid {
+.form-row input[type='password']:user-invalid {
     border: 2px solid red;
     color: red;
 }
 
 .form-row input:focus {
-    border: 3px solid blue;
-    box-shadow: 2px;
+    border: 3px, solid blue;
     color: black;
 }
 
 button {
+    background-color: #596D48;
+    color: white;
+    border: 1px, solid black;
+    border-radius: 12px;
     justify-content: center;
     align-items: center;
+    width: 40ch;
+    height: 8ch;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
